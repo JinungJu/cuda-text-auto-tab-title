@@ -1,0 +1,25 @@
+[info]
+title=Auto Tab Title
+desc=Derives titles for unsaved memo tabs and remembers manual titles in sessions.
+type=cudatext-plugin
+subdir=cuda_auto_tab_title
+api=1.0.483
+
+[item1]
+section=events
+events=on_start2,on_change_slow,on_tab_change,on_tab_move,on_state,on_state_ed,on_save
+
+[item2]
+section=commands
+caption=Auto Tab Title\Rename Current Tab
+method=rename_current_tab
+
+[item3]
+section=commands
+caption=Auto Tab Title\Reset Tab Title to Auto
+method=reset_tab_title_to_auto
+
+[item4]
+section=commands
+caption=Auto Tab Title\Restore Default Titles (Before Uninstall)
+method=restore_default_titles

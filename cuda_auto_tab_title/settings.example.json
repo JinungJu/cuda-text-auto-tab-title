@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "auto_rename": true,
+  "max_title_length": 28,
+  "scan_lines": 10,
+  "strip_markdown": true,
+  "rename_saved_files": false
+}
